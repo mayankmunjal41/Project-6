@@ -25,9 +25,11 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
+
   }
   a:hover {
     color: #111;
+    transition: 0.5s ease-in;
   }
 
 header {
@@ -86,8 +88,8 @@ footer {
 }
 
 .logo {
-  height: 140px;
-  width: 120px;
+  height: 120px;
+  width: 140px;
 }
 
 .logo-text {
